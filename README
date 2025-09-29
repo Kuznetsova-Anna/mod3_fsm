@@ -24,4 +24,3 @@ If I had more time to implement this task:
 1. I would add the behavioral tests, for mod3 and other fsm scenarios.
 2. I would add visual decimal representations for the mod3 example on the web page, not only binary ones (decimal ones are present in the code - mod3/test.php).
 3. I would add more information into the README file regarding the functionality and other details.
-4. 
