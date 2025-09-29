@@ -1,26 +1,26 @@
-This is a Modulo Three Exercise using Finite State Machine (FSM).
+# This is a Modulo Three Exercise using Finite State Machine (FSM).
 
 
-System requirements:
+## System requirements:
 PHP v.8.4+
 
 
-In order to see mod3 problem task results in the browser, go to the uri
+## In order to see mod3 problem task results in the browser, go to the uri
 mod3/test.php
 
-In order to run unit tests, run the following commands:
+## In order to run unit tests, run the following commands:
 1. cd www
 2. ./vendor/bin/phpunit --bootstrap vendor/autoload.php fsm/Tests/Unit/FiniteAutomatonTest.php
 
 
-I had the following assumptions during this task implementation:
+## I had the following assumptions during this task implementation:
 1. PHP v.8.4+ is installed in the system and running.
 2. The API mentioned in the task is an interface definition.
 3. I also assume that the FSM is a base of the module and mod3 functionality is only an example here and not the main functionality of the module.
 4. Acceptable input for mod3 problem accepts only binary representation of the number, not decimal.
 
 
-If I had more time to implement this task:
+## If I had more time to implement this task:
 1. I would add the behavioral tests, for mod3 and other fsm scenarios.
 2. I would add visual decimal representations for the mod3 example on the web page, not only binary ones (decimal ones are present in the code - mod3/test.php).
 3. I would add more information into the README file regarding the functionality and other details.
